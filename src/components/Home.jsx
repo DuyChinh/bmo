@@ -2,6 +2,10 @@ import React from 'react';
 import './Home.css';
 import { LuUserRound } from "react-icons/lu";
 import { IoIosHelpCircleOutline } from "react-icons/io";
+import { IoMdSend } from "react-icons/io";
+import { IoMagnet } from 'react-icons/io5';
+import { IoDocumentTextOutline } from "react-icons/io5";
+import { IoSettingsOutline } from "react-icons/io5";
 
 export default function Home() {
   return (
@@ -31,11 +35,22 @@ export default function Home() {
             <p className="balance">$1.500,00</p>
         </div>
 
-        <div className="actions">
-            <button>TRANSFER</button>
-            <button>PAY BILL</button>
-            <button>INTERAC E-TRANSFER</button>
-            <button>MANAGE</button>
+        <div className="quick-actions">
+            {/* <h2>Quick Actions</h2> */}
+            <div className="actions">
+                <div className="action-item">
+                    <IoMdSend className="icon_action"/>
+                    <p>INTERAC E-TRANSFER</p>
+                </div>
+                <div className="action-item">
+                    <IoDocumentTextOutline className="icon_action"/>
+                    <p>PAY BILL</p>
+                </div>
+                <div className="action-item">
+                    <IoSettingsOutline className="icon_action"/>
+                    <p>MANAGE</p>
+                </div>
+            </div>
         </div>
 
         <div className="tabs">
