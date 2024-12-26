@@ -8,11 +8,11 @@ export default function Home() {
     <div className="container">
       <header className="header">
         <div className="logo">
-            <img src="./public/images/bmo_2.png" alt="image"  className="img_logo"/>
+            <img src="./images/bmo_2.png" alt="image"  className="img_logo"/>
         </div>
         <div className="icons">
           <span>
-            <img src="./public/images/icon_header.png" alt="" className="img_logo_2"/>
+            <img src="./images/icon_header.png" alt="" className="img_logo_2"/>
           </span>
           {/* <span>
             <IoIosHelpCircleOutline/>
