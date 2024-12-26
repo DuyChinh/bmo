@@ -1,15 +1,25 @@
 import React from 'react';
 import './Home.css';
+import { LuUserRound } from "react-icons/lu";
+import { IoIosHelpCircleOutline } from "react-icons/io";
 
 export default function Home() {
   return (
     <div className="container">
       <header className="header">
-        <div className="logo">BMO</div>
+        <div className="logo">
+            <img src="./src/assets/bmo_2.png" alt="image"  className="img_logo"/>
+        </div>
         <div className="icons">
-          <span>😀</span>
-          <span>❓</span>
-          <span>👤</span>
+          <span>
+            <img src="./src/assets/icon_header.png" alt="" className="img_logo_2"/>
+          </span>
+          {/* <span>
+            <IoIosHelpCircleOutline/>
+          </span>
+          <span>
+            <LuUserRound/>
+          </span> */}
         </div>
       </header>
 
@@ -18,7 +28,7 @@ export default function Home() {
             <h2>Chequing</h2>
             <p>Primary Chequing Account</p>
             <p className="account-number">12345 6791-84</p>
-            <p className="balance">$1,500.00</p>
+            <p className="balance">$1.500,00</p>
         </div>
 
         <div className="actions">
