@@ -8,7 +8,7 @@ export default function Home() {
     <div className="container">
       <header className="header">
         <div className="logo">
-            <img src="./src/assets/bmo_2.png" alt="image"  className="img_logo"/>
+            <img src="./src/assets/bmo.jpeg" alt="image"  className="img_logo"/>
         </div>
         <div className="icons">
           <span>
